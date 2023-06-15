@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,13 +9,15 @@
 }
 
 body{
-    background-image: url(./screen-16.jpg);
-    background-size: cover;
+    background: url(./Happy-Birthday-Aunt-1.jpg);
     background-repeat: no-repeat;
-
+    background-size: cover;
+    font-family: 'Moirai One', cursive;
 }
 
+
 .year{
+    background-color: rgb(252, 170, 235);
     width: 700px;
     height: 300px;
     border-radius: 100px;
@@ -21,16 +25,14 @@ body{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    margin-top: 280px;
+    margin-left: 150px;
 }
 
 
 h1{
     font-size: 39px;
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 204);
     margin-top: 50px;
 }
 
@@ -39,8 +41,14 @@ h1{
     justify-content: center;
     gap: 15px;
     font-size: 30px;
-    color: #ffffff;
+    color: rgb(255, 0, 204);
     font-weight: 700;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 70px;
+    margin-top: 20px;
+}
+
+p{
+    font-weight: 900;
+    color: rgb(255, 0, 204);
+    font-size: 40px;
+    margin-top: 20px;
 }

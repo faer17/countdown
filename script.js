@@ -3,7 +3,7 @@ var hour = document.querySelector(".hour")
 var minutes = document.querySelector(".minutes")
 var moment = document.querySelector(".moment")
 function countdownNewYear() {
-  var newYear = new Date("January 1, 2024 00:00:00")
+  var newYear = new Date("Apr 14, 2024 00:00:00")
   var nowYear = new Date()
   var count = newYear - nowYear
   var days = Math.floor(count / (1000 * 60 * 60 * 24))
